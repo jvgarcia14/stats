@@ -76,7 +76,7 @@ def last_30_days_window():
 
 
 def fetch_earnings_chart():
-    url = f"{INFLOWW_STATS_BASE}/a3/api2/v2/earnings/chart"
+    url = f"{INFLOWW_STATS_BASE}/ja3/api2/v2/earnings/chart"
 
     start_date, end_date = last_30_days_window()
 
